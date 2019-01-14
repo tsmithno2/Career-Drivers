@@ -18,6 +18,7 @@ class Instructions extends Component {
     return (
       <div className="Instrunctions">
         <p>Here are the instructions!!!!!</p>
+        <p>tseting add</p>
       </div>
     );
   }
