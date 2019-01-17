@@ -7,14 +7,17 @@ import { setUser } from "../../dux/reducer";
 
 //DONT FORGET TO IMPORT THE CSS STYLE SHEETS AS WELL
 
-//READ FIRST!!!!!!!!!! i will be using redux to track all state values in final build, however right now i just have everything set to state. THIS WILL CHANGE!!!!!!!!!!!
-
 class IntroPage extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       userName: ""
     };
+  }
+
+  clickSubmit() {
+    console.log("we got here tot he function !!!!!! " + this.state.userName);
+    this.props.setUser(this.state.userName);
   }
 
   render() {
@@ -34,13 +37,15 @@ class IntroPage extends Component {
             value={this.state.userName}
             onChange={e => this.setState({ userName: e.target.value })}
           />
-          <button
-            onClick={() =>
-              console.log("Username Inputs Intro Page" + this.state.userName)
-            }
-          >
-            Submit
-          </button>
+          <Link to="/instructions">
+            <button
+              onClick={() => {
+                this.clickSubmit();
+              }}
+            >
+              Submit
+            </button>
+          </Link>
         </div>
       </div>
     );

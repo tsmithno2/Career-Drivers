@@ -14,6 +14,9 @@ export default function reducer(state = initState, action) {
 
 export function setUser(userInput) {
   let userData = userInput;
-
   console.log("Here in redux " + userData);
+  return {
+    type: SET_USER_DATA,
+    payload: userData
+  };
 }
