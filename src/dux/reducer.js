@@ -6,119 +6,119 @@ const initState = {
   //I am currently unaware of how to do this more efficiently
   questions: [
     {
+      number: 1,
       a:
         "I’m constantly on the lookout for new products, services, or technologies that might improve the business results of my organization.",
       b:
         "I would quit my job before I would compromise my personal values or my personal sense of what is “right”."
     },
     {
-      a: "",
-      b: ""
+      number: 2,
+      a:
+        "I have a strong need to devote time to personal or non-work interests.",
+      b:
+        "I am willing to make personal sacrifices in order to move up in my career."
     },
     {
-      a: "",
-      b: ""
+      number: 3,
+      a: "I often wish I had the power to right the wrongs in our society.",
+      b: "I get very frustrated when others try to limit my autonomy."
     },
     {
-      a: "",
-      b: ""
+      number: 4,
+      a: "I enjoy roles where I am in charge and required to lead others.",
+      b: "I enjoy the challenge of selling my ideas to others."
     },
     {
-      a: "",
-      b: ""
+      number: 5,
+      a:
+        "Being valued and appreciated for my contributions to the organization are critical to my sense of career success.",
+      b:
+        "I like to work on the most technically challenging projects within my field/organization."
     },
     {
-      a: "",
-      b: ""
+      number: 6,
+      a:
+        "I like jobs that provide me with a lot of visibility and exposure to important people in the organization.",
+      b:
+        "I like to work in areas where I can be self-reliant and do not have to depend on others."
     },
     {
-      a: "",
-      b: ""
+      number: 7,
+      a:
+        "Initiating new ideas or starting new ventures is more fun for me than managing an existing operation.",
+      b:
+        "I am a very competitive person – winning is important to my sense of fulfillment."
     },
     {
-      a: "",
-      b: ""
+      number: 8,
+      a:
+        "Making the world a better place is more important to me than organization status and money.",
+      b:
+        "Moving up the organization ladder is very important to my sense of success."
     },
     {
-      a: "",
-      b: ""
+      number: 9,
+      a: "I have a strong need to remain on the cutting edge of my field.",
+      b:
+        "I would leave my current job if it prevented me from balancing my work, professional, and personal needs."
     },
     {
-      a: "",
-      b: ""
+      number: 10,
+      a: "I would not accept a promotion if it reduced my job security.",
+      b: "I would rather resign than work for a control-oriented manager."
     },
     {
-      a: "",
-      b: ""
+      number: 11,
+      a: "I have a strong need to give myself to a good cause.",
+      b: "I constantly strive to test myself and find new challenges at work."
     },
     {
-      a: "",
-      b: ""
+      number: 12,
+      a: "I thrive on doing cutting-edge technical work.",
+      b:
+        "I thrive in roles where I am required to get work done through others."
     },
     {
-      a: "",
-      b: ""
+      number: 13,
+      a:
+        "I can’t enjoy my work if I don’t have a sense of security and stability.",
+      b:
+        "I enjoy taking risks and taking on opportunities that test my entrepreneurial skills."
     },
     {
-      a: "",
-      b: ""
+      number: 14,
+      a:
+        "I work best in an environment where management lets me scope out my own work methods and schedules.",
+      b:
+        "Success at work would not compensate for failure to achieve my goals in other aspects of my life."
     },
     {
-      a: "",
-      b: ""
+      number: 15,
+      a:
+        "I enjoy managing and leading others, regardless of the field or nature of the work they do.",
+      b:
+        "Having work that tests my limits is more important than my position or title."
     },
     {
-      a: "",
-      b: ""
+      number: 16,
+      a:
+        "To feel good about myself, I need to feel that I am making a real difference in society.",
+      b:
+        "I like to work for managers who respect my need for balance between work and personal needs."
     },
-    {
-      a: "",
-      b: ""
-    },
-    {
-      a: "",
-      b: ""
-    },
-    {
-      a: "",
-      b: ""
-    },
-    {
-      a: "",
-      b: ""
-    },
-    {
-      a: "",
-      b: ""
-    },
-    {
-      a: "",
-      b: ""
-    },
-    {
-      a: "",
-      b: ""
-    },
-    {
-      a: "",
-      b: ""
-    },
-    {
-      a: "",
-      b: ""
-    },
-    {
-      a: "",
-      b: ""
-    },
-    {
-      a: "",
-      b: ""
-    },
-    {
-      a: "",
-      b: ""
-    }
+    { number: 17, a: "", b: "" },
+    { number: 18, a: "", b: "" },
+    { number: 19, a: "", b: "" },
+    { number: 20, a: "", b: "" },
+    { number: 21, a: "", b: "" },
+    { number: 22, a: "", b: "" },
+    { number: 23, a: "", b: "" },
+    { number: 24, a: "", b: "" },
+    { number: 25, a: "", b: "" },
+    { number: 26, a: "", b: "" },
+    { number: 27, a: "", b: "" },
+    { number: 28, a: "", b: "" }
   ],
   quizAnswers: {}
 };
