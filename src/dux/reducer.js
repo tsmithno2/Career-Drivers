@@ -188,47 +188,9 @@ const initState = {
     }
   ],
   //This object is set up to receive either an "a" or "b" from the form to store their answers for the super selection step
-  quizAnswers: {
-    1: "",
-    2: "",
-    3: "",
-    4: "",
-    5: "",
-    6: "",
-    7: "",
-    8: "",
-    9: "",
-    10: "",
-    11: "",
-    12: "",
-    13: "",
-    14: "",
-    15: "",
-    16: "",
-    17: "",
-    18: "",
-    19: "",
-    20: "",
-    21: "",
-    22: "",
-    23: "",
-    24: "",
-    25: "",
-    26: "",
-    27: "",
-    28: ""
-  },
+  quizAnswers: {},
   //This object will track the points for each driver based on user answers
-  qualityCounters: {
-    e: "",
-    a: "",
-    i: "",
-    l: "",
-    fT: "",
-    s: "",
-    m: "",
-    c: ""
-  }
+  qualityCounters: {}
 };
 
 //This case is for getting the user input in intro to redux
@@ -259,6 +221,9 @@ export default function reducer(state = initState, action) {
 
     case UPDATE_ANSWERS:
       return Object.assign({}, state, { quizAnswers: action.payload });
+
+    case UPDATE_QUALITY_COUNTERS:
+      return Object.assign({}, state, { qualityCounters: action.payload });
 
     default:
       return state;
