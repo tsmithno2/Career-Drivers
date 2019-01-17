@@ -11,17 +11,17 @@ class Questions extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      //First: set of letters to track the different attributes amount
-      e: 0,
-      a: 0,
-      i: 0,
-      fT: 0,
-      l: 0,
-      m: 0,
-      c: 0,
+      //FIRST: Set up an empty array to recieve the questions array from redux
+      questions: [],
       //SECOND: q is short for question and then the number is the question number.
       //this will track answers for each question for the second phase of the test which is super selecting 2 answers
       //Now it is named the same way as in redux
+      //---------THOUGHTS-----------------
+      //I realize this may be redundant to have all this in local state as well as in redux,
+      //but i would rather have it here for now than not.
+      //It is very easy to delete all this but very time consuming to put in.
+      //So I spent the time now to just put it in rather than waiting and hvaing to do it later
+      //---------THOUGHTS-----------------
       quizAnswers: {
         1: "",
         2: "",
@@ -54,14 +54,14 @@ class Questions extends Component {
       },
       //THIRD: this is to track the quality counters based on answers, in the same format as redux
       qualityCounters: {
-        e: "",
-        a: "",
-        i: "",
-        l: "",
-        fT: "",
-        s: "",
-        m: "",
-        c: ""
+        e: 0,
+        a: 0,
+        i: 0,
+        l: 0,
+        fT: 0,
+        s: 0,
+        m: 0,
+        c: 0
       }
     };
   }
@@ -81,6 +81,6 @@ class Questions extends Component {
 
 function mapStateToProps(state) {
   return {
-    qualityCounters
+    qualityCounters: state.qualityCounters
   };
 }
