@@ -217,6 +217,17 @@ const initState = {
     26: "",
     27: "",
     28: ""
+  },
+  //this object will track the points for each driver based on user answers
+  qualityCounters: {
+    e: "",
+    a: "",
+    i: "",
+    l: "",
+    fT: "",
+    s: "",
+    m: "",
+    c: ""
   }
 };
 
