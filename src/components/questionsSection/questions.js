@@ -11,7 +11,14 @@ class Questions extends Component {
   constructor() {
     super();
     this.state = {
-      //FIRST: set of letters to track the different attributes amount
+      //FIRST: make the array of questions to map over in the render method
+      questions: [
+        {
+          a: "I’m constantly on the lookout for new products, services, or technologies that might improve the business results of my organization.",
+          b: ""
+        }
+      ]
+      //SECOND: set of letters to track the different attributes amount
       e: 0,
       a: 0,
       i: 0,
@@ -19,36 +26,38 @@ class Questions extends Component {
       l: 0,
       m: 0,
       c: 0,
-      //SECOND: q is short for question and then the number is the question number.
+      //THIRD: q is short for question and then the number is the question number.
       // this will track answers for each question for the second phase of the test which is super selecting 2 answers
-      q1: "",
-      q2: "",
-      q3: "",
-      q4: "",
-      q5: "",
-      q6: "",
-      q7: "",
-      q8: "",
-      q9: "",
-      q10: "",
-      q11: "",
-      q12: "",
-      q13: "",
-      q14: "",
-      q15: "",
-      q16: "",
-      q17: "",
-      q18: "",
-      q19: "",
-      q20: "",
-      q21: "",
-      q22: "",
-      q23: "",
-      q24: "",
-      q25: "",
-      q26: "",
-      q27: "",
-      q28: ""
+      answers: {
+        q1: "",
+        q2: "",
+        q3: "",
+        q4: "",
+        q5: "",
+        q6: "",
+        q7: "",
+        q8: "",
+        q9: "",
+        q10: "",
+        q11: "",
+        q12: "",
+        q13: "",
+        q14: "",
+        q15: "",
+        q16: "",
+        q17: "",
+        q18: "",
+        q19: "",
+        q20: "",
+        q21: "",
+        q22: "",
+        q23: "",
+        q24: "",
+        q25: "",
+        q26: "",
+        q27: "",
+        q28: ""
+      }
     };
   }
 
@@ -56,6 +65,10 @@ class Questions extends Component {
     return (
       <div className="Questionaire">
         <p>LOOK AT ALL THE QUESTIONS!!!!!!!</p>
+
+        <Link to="/results">
+          <button>Next</button>
+        </Link>
       </div>
     );
   }

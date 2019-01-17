@@ -16,7 +16,9 @@ class IntroPage extends Component {
   }
 
   clickSubmit() {
-    console.log("we got here tot he function !!!!!! " + this.state.userName);
+    console.log(
+      "we got here to the submit function!!!!!! " + this.state.userName
+    );
     this.props.setUser(this.state.userName);
   }
 

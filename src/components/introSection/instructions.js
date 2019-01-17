@@ -18,6 +18,9 @@ class Instructions extends Component {
     return (
       <div className="Instrunctions">
         <p>Here are the instructions!!!!!</p>
+        <Link to="/questions">
+          <button>Next</button>
+        </Link>
       </div>
     );
   }
