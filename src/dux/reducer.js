@@ -243,6 +243,9 @@ const SEND_QUESTIONS = "SEND_QUESTIONS";
 //This case is for updating the user saved answers in the questions component and getting them to redux
 const UPDATE_ANSWERS = "UPDATE_ANSWERS";
 
+//This case is for setting quality counters BEFORE the super selection step
+const UPDATE_QUALITY_COUNTERS = "UPDATE_QUALITY_COUNTERS";
+
 export default function reducer(state = initState, action) {
   switch (action.type) {
     case SET_USER_DATA:
@@ -250,6 +253,12 @@ export default function reducer(state = initState, action) {
 
     case SEND_USER:
       return Object.assign({}, state, { user: action.payload });
+
+    case SEND_QUESTIONS:
+      return Object.assign({}, state, { questions: action.payload });
+
+    case UPDATE_ANSWERS:
+      return Object.assign({}, state, { quizAnswers: action.payload });
 
     default:
       return state;
