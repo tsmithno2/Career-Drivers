@@ -107,18 +107,84 @@ const initState = {
       b:
         "I like to work for managers who respect my need for balance between work and personal needs."
     },
-    { number: 17, a: "", b: "" },
-    { number: 18, a: "", b: "" },
-    { number: 19, a: "", b: "" },
-    { number: 20, a: "", b: "" },
-    { number: 21, a: "", b: "" },
-    { number: 22, a: "", b: "" },
-    { number: 23, a: "", b: "" },
-    { number: 24, a: "", b: "" },
-    { number: 25, a: "", b: "" },
-    { number: 26, a: "", b: "" },
-    { number: 27, a: "", b: "" },
-    { number: 28, a: "", b: "" }
+    {
+      number: 17,
+      a: "Financial security is critical to me when making career decisions.",
+      b:
+        "I would rather resign than do anything that conflicts with my personal values or offends my personal sense of propriety."
+    },
+    {
+      number: 18,
+      a:
+        " I would rather have short, intense, task-force assignments than longer-term or more predictable assignments.",
+      b:
+        "I enjoy my work best when I can use my education and the skills of my profession."
+    },
+    {
+      number: 19,
+      a: "My non-work interests are as important to me as my work.",
+      b:
+        "I believe that to be successful in your career you must adapt your personal interests and goals to align with the needs of the organization."
+    },
+    {
+      number: 20,
+      a:
+        "A lateral transfer into a totally new field/technical area would NOT appeal to me.",
+      b: "I get turned on by change, variety, and championing new ideas."
+    },
+    {
+      number: 21,
+      a:
+        "In the absence of challenge, I tend to quickly become irritable and bored.",
+      b:
+        "I like to work for managers who reward hard work, dependability, and loyalty."
+    },
+    {
+      number: 22,
+      a: "I often dream about starting my own business.",
+      b:
+        "I work hard to balance my needs with the needs of the organization. I seek out work assignments that give me the flexibility or time to meet my needs."
+    },
+    {
+      number: 23,
+      a:
+        "Serving others and making a difference in their lives is essential to my job satisfaction.",
+      b:
+        "Working with interesting things and solving tough problems within my field is more fun to me than working with people."
+    },
+    {
+      number: 24,
+      a:
+        "I look for jobs that offer a sense of stability and long-term prospects.",
+      b:
+        "I am competitive and have good problem-solving skills, even under conditions of ambiguity and uncertainty."
+    },
+    {
+      number: 25,
+      a:
+        "I enjoy situations where others seek my expert opinion or seek me out to “trouble-shoot” problems of a technical nature.",
+      b:
+        "Being free of rules and narrowly defined procedures is essential to my sense of job satisfaction."
+    },
+    {
+      number: 26,
+      a:
+        "I would rather pass up a promotion than take an assignment that will seriously interfere with personal or non-work needs.",
+      b: "I would resign rather than take a routine or easy to accomplish job."
+    },
+    {
+      number: 27,
+      a: "Career success means being in control of how I complete my work.",
+      b:
+        "I thrive on doing the impossible or winning against very tough competitors."
+    },
+    {
+      number: 28,
+      a:
+        "I enjoy my work best when I am championing new ideas, products, or initiatives.",
+      b:
+        "More than anything else, I need work that allows me the freedom to do it my way."
+    }
   ],
   quizAnswers: {}
 };
