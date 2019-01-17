@@ -231,10 +231,17 @@ const initState = {
   }
 };
 
+//This case is for getting the user input in intro to redux
 const SET_USER_DATA = "SET_USER_DATA";
+
+//This case is for getting the user name from redux to the results page
 const SEND_USER = "SEND_USER";
-// const SET_QUIZ_ANSWERS = "SET_QUIZ_ANSWERS";
-// const SEND_QUIZ_ANSWERS = "SEND_QUIZ_ANSWERS";
+
+//This case is for sending the questions from redux to the questions component
+const SEND_QUESTIONS = "SEND_QUESTIONS";
+
+//This case is for updating the user saved answers in the questions component and getting them to redux
+const UPDATE_ANSWERS = "UPDATE_ANSWERS";
 
 export default function reducer(state = initState, action) {
   switch (action.type) {

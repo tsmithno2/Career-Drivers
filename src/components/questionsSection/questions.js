@@ -16,12 +16,14 @@ class Questions extends Component {
       //SECOND: q is short for question and then the number is the question number.
       //this will track answers for each question for the second phase of the test which is super selecting 2 answers
       //Now it is named the same way as in redux
+
       //---------THOUGHTS-----------------
       //I realize this may be redundant to have all this in local state as well as in redux,
       //but i would rather have it here for now than not.
       //It is very easy to delete all this but very time consuming to put in.
       //So I spent the time now to just put it in rather than waiting and hvaing to do it later
       //---------THOUGHTS-----------------
+
       quizAnswers: {
         1: "",
         2: "",
@@ -81,6 +83,10 @@ class Questions extends Component {
 
 function mapStateToProps(state) {
   return {
+    questions: state.questions,
+    quizAnswers: state.quizAnswers,
     qualityCounters: state.qualityCounters
   };
 }
+
+export default connect();
