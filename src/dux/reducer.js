@@ -1,4 +1,5 @@
 const initState = {
+  //this is to simply keep track of the user input for testing and familiarity in the app
   user: "",
   //This is the array of questions to map over in the render method of various components.
   //EACH QUESTIONS AND PAIR WILL ALWAYS REMAIN THE SAME! That's why I am hard coding the array.
@@ -186,7 +187,37 @@ const initState = {
         "More than anything else, I need work that allows me the freedom to do it my way."
     }
   ],
-  quizAnswers: {}
+  //This object is set up to receive either an "a" or "b" from the form to store their answers for the super selection step
+  quizAnswers: {
+    1: "",
+    2: "",
+    3: "",
+    4: "",
+    5: "",
+    6: "",
+    7: "",
+    8: "",
+    9: "",
+    10: "",
+    11: "",
+    12: "",
+    13: "",
+    14: "",
+    15: "",
+    16: "",
+    17: "",
+    18: "",
+    19: "",
+    20: "",
+    21: "",
+    22: "",
+    23: "",
+    24: "",
+    25: "",
+    26: "",
+    27: "",
+    28: ""
+  }
 };
 
 const SET_USER_DATA = "SET_USER_DATA";
