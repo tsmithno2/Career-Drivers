@@ -3,7 +3,7 @@ const initState = {
   answers: {}
 };
 
-const GET_USER_DATA = "SET_USER_DATA";
+const SET_USER_DATA = "SET_USER_DATA";
 
 export default function reducer(state = initState, action) {
   switch (action.type) {
