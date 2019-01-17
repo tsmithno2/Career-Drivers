@@ -36,7 +36,26 @@ class Graph extends Component {
         "Being in roles where one can provide direction and leadership for others; climbing the managerial ladder.",
 
       challenge:
-        "Doing things that represent ever increasing challenge; overcoming significant odds or winning against formidable competitors."
+        "Doing things that represent ever increasing challenge; overcoming significant odds or winning against formidable competitors.",
+
+      //---------THOUGHTS-----------------
+      //I realize this may be redundant to have all this in local state as well as in redux,
+      //but i would rather have it here for now than not.
+      //It is very easy to delete all this but very time consuming to put in.
+      //So I spent the time now to just put it in rather than waiting and hvaing to do it later
+      //---------THOUGHTS-----------------
+
+      //This is to track the quality counters based on answers, in the same format as redux
+      qualityCounters: {
+        e: 0,
+        a: 0,
+        i: 0,
+        l: 0,
+        fT: 0,
+        s: 0,
+        m: 0,
+        c: 0
+      }
     };
   }
 
