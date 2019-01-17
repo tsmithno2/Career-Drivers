@@ -1,5 +1,5 @@
 const initState = {
-  //this is to simply keep track of the user input for testing and familiarity in the app
+  //This is to simply keep track of the user input for testing and familiarity in the app
   user: "",
   //This is the array of questions to map over in the render method of various components.
   //EACH QUESTIONS AND PAIR WILL ALWAYS REMAIN THE SAME! That's why I am hard coding the array.
@@ -218,7 +218,7 @@ const initState = {
     27: "",
     28: ""
   },
-  //this object will track the points for each driver based on user answers
+  //This object will track the points for each driver based on user answers
   qualityCounters: {
     e: "",
     a: "",
