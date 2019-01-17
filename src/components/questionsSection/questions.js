@@ -11,14 +11,7 @@ class Questions extends Component {
   constructor() {
     super();
     this.state = {
-      //FIRST: make the array of questions to map over in the render method
-      questions: [
-        {
-          a: "I’m constantly on the lookout for new products, services, or technologies that might improve the business results of my organization.",
-          b: ""
-        }
-      ]
-      //SECOND: set of letters to track the different attributes amount
+      //First: set of letters to track the different attributes amount
       e: 0,
       a: 0,
       i: 0,
@@ -26,7 +19,7 @@ class Questions extends Component {
       l: 0,
       m: 0,
       c: 0,
-      //THIRD: q is short for question and then the number is the question number.
+      //SECOND: q is short for question and then the number is the question number.
       // this will track answers for each question for the second phase of the test which is super selecting 2 answers
       answers: {
         q1: "",

@@ -1,5 +1,125 @@
 const initState = {
   user: "",
+  //This is the array of questions to map over in the render method of various components.
+  //EACH QUESTIONS AND PAIR WILL ALWAYS REMAIN THE SAME! That's why I am hard coding the array.
+  //Since multiple components will need this array, I am putting it in redux.
+  //I am currently unaware of how to do this more efficiently
+  questions: [
+    {
+      a:
+        "I’m constantly on the lookout for new products, services, or technologies that might improve the business results of my organization.",
+      b:
+        "I would quit my job before I would compromise my personal values or my personal sense of what is “right”."
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    },
+    {
+      a: "",
+      b: ""
+    }
+  ],
   quizAnswers: {}
 };
 
